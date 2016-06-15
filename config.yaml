@@ -1,0 +1,19 @@
+resizers:
+  # nfnt (github.com/nfnt/resize)
+#   - nfnt__bilinear
+ - nfnt__bicubic
+#   - nfnt__MitchellNetravali # too blurry
+#   - nfnt__lanczos2
+#   - nfnt__lanczos3
+
+  # rez (github.com/bamiaux/rez)
+#   - rez__bilinear
+ - rez__bicubic
+#   - rez__lanczos2
+#   - rez__lanczos3
+
+  # imaging (github.com/disintegration/imaging)
+#   - imaging__bilinear
+#   - imaging__MitchellNetravali
+#   - imaging__CatmullRom
+#   - imaging__lanczos
